@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "nombre": "Funbox OTT",
+    "categoria": "OTT",
+    "sitio_web": "https://www.funboxplay.com/",
+    "lives": [
+      { "nombre": "Señal principal", "id_live": "5c0a73200958cf021646b263" }
+    ]
+  },
+  {
+    "id": 2,
+    "nombre": "Flamengo TV",
+    "categoria": "OTT",
+    "sitio_web": "https://cloud.news.flamengo.com.br/",
+    "lives": [
+      { "nombre": "Brasileirao", "id_live": "67d07c6ec20149b57b826c44" }
+    ]
+  },
+  {
+    "id": 3,
+    "nombre": "GOLTV",
+    "categoria": "OTT",
+    "sitio_web": "https://play.goltv.tv/",
+    "lives": [
+      { "nombre": "Live_Uruguay_2", "id_live": "63973ae3c47974088c2bf157" },
+      { "nombre": "Live_Uruguay_1_LATAM", "id_live": "63a46c430552ca0877056629" }
+    ]
+  },
+  {
+    "id": 4,
+    "nombre": "SANTANDER",
+    "categoria": "OTT",
+    "sitio_web": "https://playnow.mediastream.com.br/",
+    "lives": []
+  },
+  {
+    "id": 5,
+    "nombre": "TVN",
+    "categoria": "OTT",
+    "sitio_web": "https://tvnplay.com/",
+    "lives": [
+      { "nombre": "TVN Live", "id_live": "574498c4d7b86d600e5461cb" },
+      { "nombre": "TV Chile", "id_live": "533adcc94938ce76565d76c7" },
+      { "nombre": "TVN3", "id_live": "556346151e4bba30a7e94299" },
+      { "nombre": "NTV Chile", "id_live": "5aaab9e2c564209f2184c6dd" },
+      { "nombre": "24 Play", "id_live": "573e220614d585712b012ad0" }
+    ]
+  },
+  {
+    "id": 6,
+    "nombre": "MEGA GO",
+    "categoria": "OTT",
+    "sitio_web": "https://megago.cl/",
+    "lives": [
+      { "nombre": "Mega GO Carolina", "id_live": "60dcdb1c3a72b12dd6a310de" },
+      { "nombre": "Mega GO Mega Tiempo", "id_live": "6672fe4997d02a7e63321fff" },
+      { "nombre": "Mega GO Mega 2", "id_live": "652678607f5bc601338bfcbc" },
+      { "nombre": "Mega GO Infinita", "id_live": "60dcdb6435be8082827c1ff6" }
+    ]
+  }
+]
