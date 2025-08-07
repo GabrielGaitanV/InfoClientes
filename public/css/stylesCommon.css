@@ -16,12 +16,34 @@
     width: 100%;
   }
 
+  body::-webkit-scrollbar{
+    width: 8px;
+    background: #f6f6f6;
+    border-radius: 18px;
+    transition: .3s ease;
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: #bdd530;
+    border-radius: 16px;
+    transition: .3s ease;
+}
+
+body::-webkit-scrollbar-thumb:hover{
+    background-color: #a8be2b;
+    border-radius: 16px;
+    transition: .3s ease;
+}
+
   /*HEADER*/
 
   header{
     width: 100%;
     background-color: #0f0f0f;
     padding-left:80px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* sombra suave hacia abajo */
+    z-index: 10;
+    position: relative;
   }
 
  .contenedorLogo {
@@ -30,9 +52,93 @@
   justify-content: space-between;
 }
 
-.logo {
+.logoHeader {
   height: 14vh;
   width: auto;
   object-fit: contain;
   padding: 12px;
+}
+
+/*Main*/
+main {
+  z-index: 1;
+  position: relative;
+}
+
+/*FOOTER*/
+footer{
+  box-shadow: 0 -3px 7px rgba(0, 0, 0, 0.1); /* sombra más oscura hacia arriba */
+  z-index: 10;
+  position: relative;
+  min-height: 100px;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logo{
+    width: 25vh;
+}
+
+
+footer .redes {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+}
+
+footer .redes li{
+    list-style: none;
+}
+
+footer .redes li a{
+   font-size: 1.8em;
+   color: #0f0f0f; 
+   margin: 0 10px;
+   display: inline-block;
+   transition: 0.3s ease;
+}
+
+footer .redes li a:hover{
+    transform: translateY(-10px);
+    color: #bdd530;
+}
+
+footer .menu {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+}
+
+footer .menu li{
+    list-style: none;
+}
+
+footer .menu li a{
+   font-size: 1.1em;
+   color: #0f0f0f; 
+   margin: 0 10px;
+   display: inline-block;
+    text-decoration: none;
+}
+
+footer .menu li a:hover{
+    opacity: 1;
+    color: #bdd530;
+}
+
+footer p{
+    color: #0f0f0f;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 1em;
 }
